@@ -1,0 +1,74 @@
+.style {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    place-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-flow: row wrap;
+    flex: 1 1 100%;
+    /* background-image: url("http://37.228.138.173/assets/images/baner.png"); */
+    height: 771px;
+    position: relative;
+}
+
+.style>.baner {
+    width: 100%;
+    object-fit: cover;
+}
+
+.style>.box {
+    position: absolute;
+    height: 250px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    place-content: center flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 1 0.65;
+    flex-flow: row wrap;
+    max-width: 65%;
+    /* place-content: stretch space-between;
+    align-items: stretch; */
+    max-height: 100%;
+    top: 200px;
+}
+
+.box>.SiteTitle {
+    max-width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row nowrap;
+}
+
+.SiteTitle>.h1 {
+    justify-content: flex-end;
+    font-size: 36px;
+    font-family: YEKAN_BOLD!important;
+    color: #737a8a;
+    margin-right: 10px;
+}
+
+.box>.h2 {
+    box-sizing: border-box;
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 30px;
+    flex-flow: row wrap;
+    display: flex;
+    place-content: center flex-end;
+    align-items: center;
+    flex: 1 1 100%;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: YEKAN_BOLD!important;
+    color: #737a8a;
+}
